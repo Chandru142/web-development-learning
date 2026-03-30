@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        line-height: 1.9;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0dddd;
+      }
+        .container{
+           background-color: rgb(209, 123, 209);
+           border: 2px solid #333;
+           margin-bottom: 20px;
+           padding: 10px;
+        }
+        .flex-container{
+            display: flex;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .square{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin: 5px;
+        
+
+        }
+        .pastel-1{
+        background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Masterclass Demo</h1>
+    <div class="container">
+        <h2>1. Default Flex (row)</h2>
+        <div class="flex-container">
+            <div class="square pastel-1">1</div>
+            <div class="square pastel-2">2</div>
+            <div class="square pastel-3">3</div>
+            <div class="square pastel-4">4</div>
+        </div>
+    </div>
+</body>
+</html>
