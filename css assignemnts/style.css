@@ -1,0 +1,148 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Carousel Styles */
+.carousel {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+/* Container */
+.container {
+  flex: 1;
+}
+
+/* Card Styles */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card-link:hover {
+  transform: translateY(-10px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  color: #666;
+  flex-grow: 1;
+}
+
+/* Using Flexbox for card body */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #0066cc;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0052a3;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40;
+  color: white;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 300px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+/* Grid Enhancement using Bootstrap Grid + Custom Styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Section Heading */
+h2 {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
