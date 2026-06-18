@@ -26,3 +26,5 @@ console.log(num1 == num2); //true
 console.log(num1 != num3); // true
 console.log(num1 > num3); // true
 console.log(num1 < num3); // true
+
+console.log("Hello");
