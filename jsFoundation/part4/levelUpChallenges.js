@@ -182,3 +182,14 @@ for (const tea of myTeas) {
   }
   shortTeas.push(tea);
 }
+    // chan
+
+    let number = [2,5,7,9]
+    let doubledNumbers = []
+
+    for (let i = 0; i < number.length; i++) {
+    if (number [i] === 7) {
+        continue;
+      }
+      
+    }
